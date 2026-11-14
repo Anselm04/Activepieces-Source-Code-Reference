@@ -1,0 +1,236 @@
+{
+  "source": "https://github.com/activepieces/activepieces.git",
+  "commit": "b9f66339ed218e564a645d5c8d23e632e9b2d90c",
+  "number_of_original_workflow_files": 38,
+  "original_ci_is_disabled": true,
+  "files": [
+    {
+      "upstream_path": ".github/workflows/agent-evals.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/agent-evals.yml",
+      "git_blob": "f18165e75e0a51e8608f1e6a626f9a7819780ebc",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/benchmark.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/benchmark.yml",
+      "git_blob": "c0836ba0254f3d8a77e2edd3c515ce1d95a0eb52",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/breaking-change-check.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/breaking-change-check.yml",
+      "git_blob": "bbc9d2d241c5f1d1106d79cea924e045c63eb5dd",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/build-cloud-image.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/build-cloud-image.yml",
+      "git_blob": "2d05bc813a3125e2610ca5ead15ec5024c3a667e",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/build-isolate.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/build-isolate.yml",
+      "git_blob": "dd0686c4f6844c8edb59c1f892e8459ebb89b823",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ci.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/ci.yml",
+      "git_blob": "b7d4e900bda374bfe4c1672aba483e1a6e7f87e7",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/close-external-prs.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/close-external-prs.yml",
+      "git_blob": "f2a4b28f920201013a765c1556403c46aaf989a2",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/closed-issue-reply.yaml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/closed-issue-reply.yaml",
+      "git_blob": "799f66d92492e80ee29018c3fc2204780d14f1a7",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/continuous-delivery-cloud.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/continuous-delivery-cloud.yml",
+      "git_blob": "cb40d81e2bb71c27615bf79ae2f6afb86c4b14c8",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/continuous-delivery-release.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/continuous-delivery-release.yml",
+      "git_blob": "8d27904698f593cda90c5d2860210e85fa02a697",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/continuous-delivery-rollback.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/continuous-delivery-rollback.yml",
+      "git_blob": "fb0b89cf845c9169598ef83def71d1ddc7a1eb9a",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/continuous-delivery-stg.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/continuous-delivery-stg.yml",
+      "git_blob": "59ace634bc39647f4ad96f3a257abbb8ba60b712",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/crowdin-pr-merger.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/crowdin-pr-merger.yml",
+      "git_blob": "d4cd04b2ae95ca3bb0e8f13e050526997992df71",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/dast.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/dast.yml",
+      "git_blob": "19816ecf26612c5d6d8897489bd6a2e8a016c490",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/delete-workflow-runs.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/delete-workflow-runs.yml",
+      "git_blob": "18945a192430f736b559a663b3a1b5950e8f916a",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/e2e-matrix.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/e2e-matrix.yml",
+      "git_blob": "ce14bde75781e4583374aa350da944c9d860b76a",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/e2e-tests-checkly.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/e2e-tests-checkly.yml",
+      "git_blob": "9cd9b86159793ea2c4fd935b7576b9470a45ddc3",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/e2e.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/e2e.yml",
+      "git_blob": "30437130a891048b42d31beb9a4477e7bde59f6a",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/emergency-cloud-deploy.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/emergency-cloud-deploy.yml",
+      "git_blob": "a4734943aff8550f7593afc1fe1f88ce3fdc87dc",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/generate-translations.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/generate-translations.yml",
+      "git_blob": "ea367268574e681fd5811cbc7fc5c1e3d7863ba9",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/helm-chart.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/helm-chart.yml",
+      "git_blob": "ad590afb92a9f72f0d4f8031ebc3b85faf357b48",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/linear-ticket-check.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/linear-ticket-check.yml",
+      "git_blob": "411aba509ad5fc1a6ffd5791561d74a733e35b32",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/pr-size.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/pr-size.yml",
+      "git_blob": "240915fa09b137a2a82f0731de9484925697186d",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/publish-embed-sdk.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/publish-embed-sdk.yml",
+      "git_blob": "a9f69028a9af9181e961c521081f7bccf7d3b417",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/release-cli.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/release-cli.yml",
+      "git_blob": "508ecf92fe1f1639c7b624f652d773c6a38c1c78",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/release-pieces.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/release-pieces.yml",
+      "git_blob": "aa8ebb804d4d52ec1884b3e8e0c1f8a246928896",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/release-self-hosted.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/release-self-hosted.yml",
+      "git_blob": "85f9fe1b0f1dbdf5d782cc83ce02ab0350374eaa",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/remove-environment.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/remove-environment.yml",
+      "git_blob": "8b276bddfc6d6ff8ecbb45d7288e005c7439e471",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/reusable-finalize-translations-pr.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/reusable-finalize-translations-pr.yml",
+      "git_blob": "0dc09d2dade408a10d84d7f7b664809336c7c3a1",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/reusable-generate-translations-shard.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/reusable-generate-translations-shard.yml",
+      "git_blob": "e058a20de90900f9385eea36dbf15714279abf2a",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/setup-environment.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/setup-environment.yml",
+      "git_blob": "51ba4deaed40f5c0c5d78a3b2b3b38294f37183d",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/smoke-test.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/smoke-test.yml",
+      "git_blob": "7706fd9172b7d751d63adffc87397e0d8f22706e",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/sync-betterstack-playwright.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/sync-betterstack-playwright.yml",
+      "git_blob": "633ff90fc9882451b8fbef5f4282aca65bd6b001",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/sync-model-catalog.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/sync-model-catalog.yml",
+      "git_blob": "77c354ea4468133713915d7b17e2201f047cd049",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/upgrade-test.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/upgrade-test.yml",
+      "git_blob": "f7bdcab160abdb7422ba37e81fc2ebff81c85985",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/validate-pr-title.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/validate-pr-title.yml",
+      "git_blob": "77ae758979c1932606a4251fd6a4d44393d6ffc7",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/validate-publishable-packages.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/validate-publishable-packages.yml",
+      "git_blob": "46d3b35493d175bee98e4f13edc0404b10104346",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/warm-ci-cache.yml",
+      "reference_path": "upstream-workflow-snapshots/activepieces/.github/workflows/warm-ci-cache.yml",
+      "git_blob": "5068063aa56c7f59fe9e9821e4764fa3656ab143",
+      "original_mode": "100644"
+    }
+  ]
+}

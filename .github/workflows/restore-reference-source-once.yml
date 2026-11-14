@@ -1,0 +1,36 @@
+name: Restore complete Activepieces reference source once
+on:
+  push:
+    paths:
+      - '.github/workflows/restore-reference-source-once.yml'
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Restore all removed upstream source files and verify
+        shell: bash
+        run: |
+          set -euo pipefail
+          SOURCE=e13ae9670b745bd006abe0d574c7677db8732202
+          git cat-file -e "${SOURCE}^{commit}"
+          git restore --source="$SOURCE" --staged --worktree -- packages/ee packages/server/api/src/app/ee
+          before="$(git ls-tree -r --name-only "$SOURCE" -- packages/ee packages/server/api/src/app/ee | wc -l | tr -d ' ')"
+          after="$(git ls-files -- packages/ee packages/server/api/src/app/ee | wc -l | tr -d ' ')"
+          test "$before" -eq "$after"
+          test -f LICENSE
+          test -f packages/ee/LICENSE
+          mkdir -p .trillionai
+          printf '%s\n' "# Complete Activepieces source restored" "" "Original upstream source content was restored from pre-filter commit `$SOURCE`." "Original restricted-path file count: $before" "Restored restricted-path file count: $after" "No upstream build or code was executed." "Original licence documents and attribution remain unchanged." "Reference-only: reuse and distribution must respect the applicable licences. This document does not grant additional rights." > .trillionai/SOURCE_RESTORATION.md
+          rm .github/workflows/restore-reference-source-once.yml
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'restore(reference): reinstate complete Activepieces original source tree'
+          git push origin HEAD:main
